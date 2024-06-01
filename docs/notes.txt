@@ -1,0 +1,22 @@
+Notes:
+Evaluation of Results/Hypothesis:
+- Results need to be validated beyond visual comparison with the published results of an existing literature or reproduced paper
+- Figures should have good resolution and labels should be readable
+- Comparison or benchmarking against existing tools
+
+After data analysis, extrapolating the most abundant molecular targets in the data as biomarkers of a particular condition is purely speculative unless there's network reconstruction in specific confounding factors in order to deal with bias which may have influenced the study outcomes.
+
+As part of the methodological rigour, the following are preferred,
+- Balanced dataset (men/women, african/non-african, old/young etc.)
+- Different omic data types can be compared (depending on what the project is about)
+- Clearly state the inclusion/exclusion selection criteria for the sequences that were analyzed.
+
+
+To emphasize the methodological contribution of the study, these other possible validation approaches can be done:
+- Crossing different studies in databases that are related to the condition being studied
+- Sensitivity analysis
+- Co-occurence network analysis
+
+Use case or Novelty:
+- Since similar pipelines likely exist already, hightlight the specific use case(s) where this proposed solution is particularly relevant.
+- In your benchmarking, you can work with hardware specs that could be available to a typical biologist e.g. 2+ vCPUs, 8Gb RAM, 10Gb SSD.
