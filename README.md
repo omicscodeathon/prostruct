@@ -19,7 +19,7 @@ Enhance Structural Insights: Provide accurate and reliable protein structure pre
 Make the tool open-source to foster collaboration, continuous improvement, and the integration of additional features by the research community.
 
 ### Workflow 
-![image](https://github.com/omicscodeathon/prostruct/blob/main/workflow/algo%20prostruc.jpg)
+![image](https://github.com/omicscodeathon/prostruct/blob/main/workflow/workflow.png)
 Figure1.workflow
 
 
@@ -29,9 +29,9 @@ Figure1.workflow
 
 ###  Team Members
 
-1.Shivani Pawar
-2.Wilson Sena 
-3.Musa Muhammad Shamsuddeen
-4.Toheeb Jumah
-5.Nigel Dolling
-6.Abdulwasiu Tiamiyu
+# 1.Shivani Pawar
+# 2.Wilson Sena 
+# 3.Musa Muhammad Shamsuddeen
+# 4.Toheeb Jumah
+# 5.Nigel Dolling
+# 6.Abdulwasiu Tiamiyu
