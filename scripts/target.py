@@ -127,10 +127,4 @@ class Target:
 
 
 
-#
-# SEQ = "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN"
-# target = Target(job_name='new job',file_path='C:\\Users\\Wilson\\Downloads\\fasta.txt')
-# result = target.convert_to_fasta(filepath='C:\\Users\\Wilson\\Downloads\\fasta.txt')
-# print(target.sequence_from_fasta(fasta_filepath='C:\\Users\\Wilson\\Downloads\\fasta.txt'))
-# print(target.get_sequence())
-# print(target.analyse_target())
+
