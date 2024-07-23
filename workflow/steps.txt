@@ -5,3 +5,5 @@ Perform blast search to find templates, download the result of the blast search 
 Check for the most similar sequence using either e-value, bitscore or both. Other parameters can be included depending on their relevance
 Download the pdb files for the most similar sequences using the ID
 Check the header files of sequences for missing residues, if missing residues are found, the file will be deleted. Only files without missing residues will be maintained and used in the modelling step
+Multiple sequence Alignment 
+Homology Modelling Engine/structure Module
