@@ -58,5 +58,5 @@ Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in
 1. Introduction and Objectives: Hierarchical approach to protein structure prediction and function annotation​​.
 2. Methods and Implementation: C-score and tm-score
 3. Workflow and User Interaction: Detailed user options for customizing modeling processes​​.
-4. Results and Validation: Benchmarking I-tasser
+4. Results and Validation: Benchmarking I-tasser (Validation through CASP competition rankings)
 5. Applications and Use Cases: Predictions in protein structures and functions, emphasizing its research impact​​.
