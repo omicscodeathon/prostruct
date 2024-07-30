@@ -1,4 +1,4 @@
-# SWISS-MODEL
+# SWISS-MODEL [swissmodel_paper.pdf](swissmodel_paper.pdf)
 
 1. Introduction and Objectives: Automated protein structure homology modeling accessible to researchers worldwide​
 2. Methods and Implementation: Comprehensive pipeline involving sequence alignment, template selection, and model building
