@@ -1,4 +1,5 @@
-# SWISS-MODEL [swissmodel_paper.pdf](swissmodel_paper.pdf)
+# SWISS-MODEL 
+[swissmodel_paper.pdf](swissmodel_paper.pdf)
 
 1. Introduction and Objectives: Automated protein structure homology modeling accessible to researchers worldwide​
 2. Methods and Implementation: Comprehensive pipeline involving sequence alignment, template selection, and model building
@@ -7,6 +8,7 @@ Workflow and User Interaction: User-friendly interface with detailed instruction
 Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in various research projects​
 
 # Robetta
+[Robetta_paper.pdf](Robetta_paper.pdf)
 
 1. Introduction and Objectives: Comprehensive protein structure prediction server for comparative modeling and ab initio structure prediction.
 2. Methods and Implementation: Fragment assembly, domain prediction, and Rosetta for ab initio modeling.
@@ -15,6 +17,7 @@ Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in
 5. Applications and Use Cases: Demonstrations of successful predictions in various biological contexts.
 
 # Phyre2
+[]()
 
 1. Introduction and Objectives: Homology modeling tool designed for sequences with low similarity to known structures.
 2. Methods and Implementation: Advanced homology detection and profile-profile matching.
@@ -23,6 +26,7 @@ Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in
 5. Applications and Use Cases: Specific studies on novel proteins and disease-related mutations.
 
 # HHpred
+[hhpred_paper.pdf](hhpred_paper.pdf)
 
 1. Introduction and Objectives: Tool for protein homology detection and structure prediction based on HMM-HMM comparison.
 2. Methods and Implementation: Detailed algorithms for HMM construction, database searches, and template selection.
@@ -31,6 +35,7 @@ Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in
 5. Applications and Use Cases: Identification of novel protein families and evolutionary analysis.
 
 # PRIMO
+[PRIMO_paper.pdf](PRIMO_paper.pdf)
 
 1. Introduction and Objectives: User-inclusive online modeling resource with a simple and flexible interface​​​ 
 2. Methods and Implementation: Backend functionality using HHsuite, BLAST, Clustal Omega, and MODELLER​ (PRIMO)​​ 
@@ -39,6 +44,7 @@ Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in
 5. Applications and Use Cases: Applications within the H3Africa Consortium and beyond​​.
 
 # DaReUS-Loop
+[Dareus-loop_paper.pdf](Dareus-loop_paper.pdf)
 
 1. Introduction and Objectives: Specialized tool for modeling multiple loops in homology models​​​.
 2. Methods and Implementation: Data-based approach for identifying and modeling loops​​.
@@ -47,9 +53,10 @@ Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in
 5. Applications and Use Cases: Utility in modeling complex loop regions in proteins​
 
 # I-TASSER
+[I-tasser_paper.pdf](I-tasser_paper.pdf)
 
 1. Introduction and Objectives: Hierarchical approach to protein structure prediction and function annotation​​.
-2. Methods and Implementation: Multi-step process using LOMETS and iterative simulations​​.
+2. Methods and Implementation: C-score and tm-score
 3. Workflow and User Interaction: Detailed user options for customizing modeling processes​​.
-4. Results and Validation: Validation through CASP competition rankings​​.
+4. Results and Validation: Benchmarking I-tasser
 5. Applications and Use Cases: Predictions in protein structures and functions, emphasizing its research impact​​.
