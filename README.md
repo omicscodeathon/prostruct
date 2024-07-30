@@ -20,7 +20,7 @@ Enhance Structural Insights: Provide accurate and reliable protein structure pre
 Make the tool open-source to foster collaboration, continuous improvement, and the integration of additional features by the research community.
 
 ### Workflow 
-![image](https://github.com/omicscodeathon/prostruct/blob/main/workflow/workflow.png)
+![image](https://github.com/omicscodeathon/prostruct/blob/main/workflow/WhatsApp%20Image%202024-07-29%20at%2001.31.46.jpeg)
 Figure1.workflow
 
 
