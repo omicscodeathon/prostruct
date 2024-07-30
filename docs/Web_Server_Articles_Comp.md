@@ -17,7 +17,7 @@ Applications and Use Cases: Examples highlighting SWISS-MODEL’s versatility in
 5. Applications and Use Cases: Demonstrations of successful predictions in various biological contexts.
 
 # Phyre2
-[]()
+[phyre2_paper.pdf](phyre2_paper.pdf)
 
 1. Introduction and Objectives: Homology modeling tool designed for sequences with low similarity to known structures.
 2. Methods and Implementation: Advanced homology detection and profile-profile matching.
