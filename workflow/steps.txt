@@ -7,3 +7,5 @@ Download the pdb files for the most similar sequences using the ID
 Check the header files of sequences for missing residues, if missing residues are found, the file will be deleted. Only files without missing residues will be maintained and used in the modelling step
 Multiple sequence Alignment 
 Homology Modelling Engine/structure Module
+Promode-3 structure based module 
+Pyrosetta python based module 
