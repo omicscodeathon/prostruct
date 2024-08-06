@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1251467</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>110</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1251467</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>110</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|6B3Q|a</Hit_id>
+  <Hit_def>Chain a, Insulin [Homo sapiens] &gt;pdb|6B3Q|b Chain b, Insulin [Homo sapiens] &gt;pdb|6B70|a Chain a, Insulin [Homo sapiens] &gt;pdb|6B70|c Chain c, Insulin [Homo sapiens] &gt;pdb|6BFC|a Chain a, Insulin [Homo sapiens] &gt;pdb|6BFC|b Chain b, Insulin [Homo sapiens] &gt;pdb|6JK8|C Chain C, Insulin [Homo sapiens] &gt;pdb|6JK8|D Chain D, Insulin [Homo sapiens] &gt;pdb|6TC2|A Chain A, Insulin [Homo sapiens] &gt;pdb|6TC2|B Chain B, Insulin [Homo sapiens] &gt;pdb|6TC2|C Chain C, Insulin [Homo sapiens] &gt;pdb|6TC2|D Chain D, Insulin [Homo sapiens] &gt;pdb|6TC2|E Chain E, Insulin [Homo sapiens] &gt;pdb|6TC2|F Chain F, Insulin [Homo sapiens] &gt;pdb|6TC2|G Chain G, Insulin [Homo sapiens] &gt;pdb|6TC2|H Chain H, Insulin [Homo sapiens] &gt;pdb|6TC2|I Chain I, Insulin [Homo sapiens] &gt;pdb|6TC2|J Chain J, Insulin [Homo sapiens] &gt;pdb|6TC2|K Chain K, Insulin [Homo sapiens] &gt;pdb|6TC2|L Chain L, Insulin [Homo sapiens] &gt;pdb|7STH|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STH|D Chain D, Insulin [Homo sapiens] &gt;pdb|7STI|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STJ|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STJ|D Chain D, Insulin [Homo sapiens] &gt;pdb|7STK|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STK|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EYX|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EYX|E Chain E, Insulin [Homo sapiens] &gt;pdb|8EYX|F Chain F, Insulin [Homo sapiens] &gt;pdb|8EYX|G Chain G, Insulin [Homo sapiens] &gt;pdb|8EYY|C Chain C, Insulin [Homo sapiens] &gt;pdb|8EYY|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EYY|E Chain E, Insulin [Homo sapiens] &gt;pdb|8EYY|F Chain F, Insulin [Homo sapiens] &gt;pdb|8EZ0|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EZ0|E Chain E, Insulin [Homo sapiens] &gt;pdb|8EZ0|F Chain F, Insulin [Homo sapiens] &gt;pdb|8EZ0|G Chain G, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>6B3Q_a</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>3.85482e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|2KQP|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>2KQP_A</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.07523e-55</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSDLVEALYLVCGERGFFYTKPTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGS LVEALYLVCGERGFFYT  TRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6PXV|D</Hit_id>
+  <Hit_def>Chain D, Insulin [Homo sapiens] &gt;pdb|6PXV|E Chain E, Insulin [Homo sapiens] &gt;pdb|6PXV|F Chain F, Insulin [Homo sapiens] &gt;pdb|6PXV|G Chain G, Insulin [Homo sapiens] &gt;pdb|6PXW|C Chain C, Insulin [Homo sapiens] &gt;pdb|6PXW|D Chain D, Insulin [Homo sapiens] &gt;pdb|6PXW|E Chain E, Insulin [Homo sapiens] &gt;pdb|6PXW|F Chain F, Insulin [Homo sapiens] &gt;pdb|7BW7|D Chain D, Insulin fusion [Homo sapiens] &gt;pdb|7BW8|D Chain D, Insulin fusion [Homo sapiens] &gt;pdb|7BWA|D Chain D, Insulin fusion [Homo sapiens] &gt;pdb|7BWA|E Chain E, Insulin fusion [Homo sapiens]</Hit_def>
+  <Hit_accession>6PXV_D</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>7.43278e-47</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ            GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|6ZI8|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Bos taurus] &gt;pdb|6ZI8|B Chain B, Insulin [Bos taurus] &gt;pdb|6ZI8|C Chain C, Insulin [Bos taurus] &gt;pdb|6ZI8|D Chain D, Insulin [Bos taurus]</Hit_def>
+  <Hit_accession>6ZI8_A</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>2.36657e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>MALWTRLRPLLALLALWPPPPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGALEL-----AGGPGAGGLEGPPQKRGIVEQCCASVCSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>MALW RL PLLALLALW P PA AFVNQHLCGSHLVEALYLVCGERGFFYTPK RRE E  QVG +EL     AG      LEG  QKRGIVEQCC S+CSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1EFE|A</Hit_id>
+  <Hit_def>Chain A, MINI-PROINSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1EFE_A</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>4.22841e-31</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRRYPGDV--------------------------KRGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRR   D+                          KRGIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|6U46|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>6U46_A</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>6.34666e-28</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYC</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPRTE---------------------------EGSRRSRGIVEQCCRSICSLYQLENYC</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTP+T                            EGS + RGIVEQCC SICSLYQLENYC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|8PJC|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>8PJC_A</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>5.62038e-26</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKA---------------------------------AKGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPK                                   +GIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|8PI4|A</Hit_id>
+  <Hit_def>Chain A, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|8PI5|B Chain B, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|8PI5|D Chain D, Insulin B chain,Insulin A chain [Homo sapiens]</Hit_def>
+  <Hit_accession>8PI4_A</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>6.33967e-26</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKAM---------------------------------KGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPK                                   +GIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|8PJH|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>8PJH_A</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.20942e-25</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPK---------------------------------DGKGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPK                                   +GIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|5WDM|A</Hit_id>
+  <Hit_def>Chain A, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|B Chain B, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|C Chain C, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|D Chain D, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|E Chain E, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|F Chain F, Single-chain insulin analog [Homo sapiens]</Hit_def>
+  <Hit_accession>5WDM_A</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.27959e-25</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPETEE--------------GP---------------RRGIVEQCCHSICSLEQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTP+T                GP               +RGIVEQCC SICSL QLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|2JZQ|A</Hit_id>
+  <Hit_def>Chain A, Insulin [unidentified] &gt;pdb|2LWZ|A Chain A, SINGLE-CHAIN INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2JZQ_A</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>3.13116e-25</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSDLVEALYLVCGERGFFYTDPT--------------GGGP---------------RRGIVEQCCHSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGS LVEALYLVCGERGFFYT  T              GGGP               +RGIVEQCC SICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1ZEI|A</Hit_id>
+  <Hit_def>Chain A, INSULIN [Sus scrofa] &gt;pdb|1ZEI|B Chain B, INSULIN [Sus scrofa] &gt;pdb|1ZEI|C Chain C, INSULIN [Sus scrofa] &gt;pdb|1ZEI|D Chain D, INSULIN [Sus scrofa] &gt;pdb|1ZEI|E Chain E, INSULIN [Sus scrofa] &gt;pdb|1ZEI|F Chain F, INSULIN [Sus scrofa]</Hit_def>
+  <Hit_accession>1ZEI_A</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>3.7345e-25</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTDKA---------------------------------AKGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYT K                                   +GIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|6INS|E</Hit_id>
+  <Hit_def>Chain E, INSULIN [Sus scrofa] &gt;pdb|6INS|F Chain F, INSULIN [Sus scrofa]</Hit_def>
+  <Hit_accession>6INS_E</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>6.42432e-25</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPK------------------------------------GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPK                                    GIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|5WBT|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens] &gt;pdb|7KD6|B Chain B, Single-chain Insulin SCI-b [Homo sapiens] &gt;pdb|7KD6|H Chain H, Single-chain Insulin SCI-b [Homo sapiens] &gt;pdb|7KD6|N Chain N, Single-chain Insulin SCI-b [Homo sapiens] &gt;pdb|7KD6|T Chain T, Single-chain Insulin SCI-b [Homo sapiens]</Hit_def>
+  <Hit_accession>5WBT_A</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>8.16419e-24</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTDPTEE--------------GP---------------RRGIVEQCCHSICSLEQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYT  T                GP               +RGIVEQCC SICSL QLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|8PI6|A</Hit_id>
+  <Hit_def>Chain A, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|8PI6|B Chain B, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|8PI6|C Chain C, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|8PI6|D Chain D, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|8PI6|E Chain E, Insulin B chain,Insulin A chain [Homo sapiens]</Hit_def>
+  <Hit_accession>8PI6_A</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>8.32905e-24</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVEQHLCGSHLVEALYLVCGERGFFETPR----SEDWW--------------------------RGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FV QHLCGSHLVEALYLVCGERGFF TP+    +ED                            RGIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|7JP3|A</Hit_id>
+  <Hit_def>Chain A, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|7JP3|B Chain B, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|7JP3|C Chain C, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|7JP3|D Chain D, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|7JP3|E Chain E, Insulin B chain,Insulin A chain [Homo sapiens] &gt;pdb|7JP3|F Chain F, Insulin B chain,Insulin A chain [Homo sapiens]</Hit_def>
+  <Hit_accession>7JP3_A</Hit_accession>
+  <Hit_len>49</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.86739e-23</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYT-------------------------------------KGIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYT                                     +GIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1SJU|A</Hit_id>
+  <Hit_def>Chain A, PROINSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1SJU_A</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>6.57752e-23</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSDLVEALYLVCGERGFFYTDK------------------------------------GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGS LVEALYLVCGERGFFYT K                                    GIVEQCCTSICSLYQLENYCN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|6K59|B</Hit_id>
+  <Hit_def>Chain B, Glargine insulin Chain-B [synthetic construct]</Hit_def>
+  <Hit_accession>6K59_B</Hit_accession>
+  <Hit_len>32</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>9.43381e-18</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRR</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRR</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|2KXK|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2RN5|B Chain B, Insulin [Homo sapiens] &gt;pdb|5MWQ|B Chain B, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>2KXK_B</Hit_accession>
+  <Hit_len>32</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>2.43856e-17</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTRR</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTKR</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPKT+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|2LGB|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>2LGB_B</Hit_accession>
+  <Hit_len>31</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>6.56579e-17</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTR</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTR</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPKTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|5MHD|B</Hit_id>
+  <Hit_def>Chain B, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>5MHD_B</Hit_accession>
+  <Hit_len>31</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>4.57718e-16</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKTR</Hsp_qseq>
+      <Hsp_hseq>FVKQHLCGSHLVEALYLVCGERGFFYTPKTR</Hsp_hseq>
+      <Hsp_midline>FV QHLCGSHLVEALYLVCGERGFFYTPKTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1AI0|B</Hit_id>
+  <Hit_def>Chain B, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AI0|D Chain D, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AI0|F Chain F, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AI0|H Chain H, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AI0|J Chain J, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AI0|L Chain L, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AIY|B Chain B, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AIY|D Chain D, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AIY|F Chain F, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AIY|H Chain H, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AIY|J Chain J, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1AIY|L Chain L, R6 INSULIN HEXAMER [Homo sapiens] &gt;pdb|1BEN|B Chain B, HUMAN INSULIN [synthetic construct] &gt;pdb|1BEN|D Chain D, HUMAN INSULIN [synthetic construct] &gt;pdb|1EV3|B Chain B, Insulin [synthetic construct] &gt;pdb|1EV3|D Chain D, Insulin [synthetic construct] &gt;pdb|1EV6|B Chain B, INSULIN [synthetic construct] &gt;pdb|1EV6|D Chain D, INSULIN [synthetic construct] &gt;pdb|1EV6|F Chain F, INSULIN [synthetic construct] &gt;pdb|1EV6|H Chain H, INSULIN [synthetic construct] &gt;pdb|1EV6|J Chain J, INSULIN [synthetic construct] &gt;pdb|1EV6|L Chain L, INSULIN [synthetic construct] &gt;pdb|1EVR|B Chain B, INSULIN [synthetic construct] &gt;pdb|1EVR|D Chain D, INSULIN [synthetic construct] &gt;pdb|1EVR|F Chain F, INSULIN [synthetic construct] &gt;pdb|1EVR|H Chain H, INSULIN [synthetic construct] &gt;pdb|1EVR|J Chain J, INSULIN [synthetic construct] &gt;pdb|1EVR|L Chain L, INSULIN [synthetic construct] &gt;pdb|1FU2|B Chain B, INSULIN, B CHAIN [synthetic construct] &gt;pdb|1FU2|D Chain D, INSULIN, B CHAIN [synthetic construct] &gt;pdb|1FU2|F Chain F, INSULIN, B CHAIN [synthetic construct] &gt;pdb|1FU2|H Chain H, INSULIN, B CHAIN [synthetic construct] &gt;pdb|1FUB|B Chain B, INSULIN, B CHAIN [synthetic construct] &gt;pdb|1FUB|D Chain D, INSULIN, B CHAIN [synthetic construct] &gt;pdb|1G7A|B Chain B, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1G7A|D Chain D, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1G7A|F Chain F, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1G7A|H Chain H, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1G7B|B Chain B, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1G7B|D Chain D, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1G7B|F Chain F, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1G7B|H Chain H, INSULIN B-CHAIN [synthetic construct] &gt;pdb|1GUJ|B Chain B, INSULIN [Homo sapiens] &gt;pdb|1GUJ|D Chain D, INSULIN [Homo sapiens] &gt;pdb|1J73|B Chain B, insulin b [synthetic construct] &gt;pdb|1J73|D Chain D, insulin b [synthetic construct] &gt;pdb|1JCA|B Chain B, insulin b [synthetic construct] &gt;pdb|1JCA|D Chain D, insulin b [synthetic construct] &gt;pdb|1MSO|B Chain B, Insulin B-Chain [synthetic construct] &gt;pdb|1MSO|D Chain D, Insulin B-Chain [synthetic construct] &gt;pdb|1OS3|B Chain B, Insulin [Homo sapiens] &gt;pdb|1OS3|D Chain D, Insulin [Homo sapiens] &gt;pdb|1OS4|B Chain B, Insulin [Homo sapiens] &gt;pdb|1OS4|D Chain D, Insulin [Homo sapiens] &gt;pdb|1OS4|F Chain F, Insulin [Homo sapiens] &gt;pdb|1OS4|H Chain H, Insulin [Homo sapiens] &gt;pdb|1OS4|J Chain J, Insulin [Homo sapiens] &gt;pdb|1OS4|L Chain L, Insulin [Homo sapiens] &gt;pdb|1Q4V|B Chain B, Insulin [synthetic construct] &gt;pdb|1Q4V|D Chain D, Insulin [synthetic construct] &gt;pdb|1RWE|B Chain B, Insulin [unidentified] &gt;pdb|1RWE|D Chain D, Insulin [unidentified] &gt;pdb|1SF1|B Chain B, Insulin [Homo sapiens] &gt;pdb|1TRZ|B Chain B, INSULIN [Homo sapiens] &gt;pdb|1TRZ|D Chain D, INSULIN [Homo sapiens] &gt;pdb|1TYL|B Chain B, INSULIN [Homo sapiens] &gt;pdb|1TYL|D Chain D, INSULIN [Homo sapiens] &gt;pdb|1TYM|B Chain B, INSULIN [Homo sapiens] &gt;pdb|1TYM|D Chain D, INSULIN [Homo sapiens] &gt;pdb|1XGL|B Chain B, INSULIN [Homo sapiens] &gt;pdb|1XW7|B Chain B, Insulin [synthetic construct] &gt;pdb|1XW7|D Chain D, Insulin [synthetic construct] &gt;pdb|1ZNJ|B Chain B, INSULIN [Homo sapiens] &gt;pdb|1ZNJ|D Chain D, INSULIN [Homo sapiens] &gt;pdb|1ZNJ|F Chain F, INSULIN [Homo sapiens] &gt;pdb|1ZNJ|H Chain H, INSULIN [Homo sapiens] &gt;pdb|1ZNJ|J Chain J, INSULIN [Homo sapiens] &gt;pdb|1ZNJ|L Chain L, INSULIN [Homo sapiens] &gt;pdb|2AIY|B Chain B, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|2AIY|D Chain D, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|2AIY|F Chain F, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|2AIY|H Chain H, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|2AIY|J Chain J, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|2AIY|L Chain L, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|2G54|C Chain C, insulin [synthetic construct] &gt;pdb|2G54|D Chain D, insulin [synthetic construct] &gt;pdb|2G56|C Chain C, Insulin [synthetic construct] &gt;pdb|2G56|D Chain D, Insulin [synthetic construct] &gt;pdb|2HIU|B Chain B, INSULIN [Homo sapiens] &gt;pdb|2JV1|B Chain B, Insulin [Homo sapiens] &gt;pdb|2MVC|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2OLY|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2OLY|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|2OLY|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|2OLY|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|2OLY|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|2OLY|L Chain L, Insulin B chain [Homo sapiens] &gt;pdb|2OLZ|B Chain B, Insulin B [Homo sapiens] &gt;pdb|2OLZ|D Chain D, Insulin B [Homo sapiens] &gt;pdb|2OLZ|F Chain F, Insulin B [Homo sapiens] &gt;pdb|2OLZ|H Chain H, Insulin B [Homo sapiens] &gt;pdb|2OLZ|J Chain J, Insulin B [Homo sapiens] &gt;pdb|2OLZ|L Chain L, Insulin B [Homo sapiens] &gt;pdb|2OM0|2 Chain 2, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|4 Chain 4, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|L Chain L, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|R Chain R, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|T Chain T, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|V Chain V, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|Y Chain Y, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|b Chain b, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|d Chain d, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|f Chain f, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|h Chain h, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|j Chain j, Insulin B chain [Homo sapiens] &gt;pdb|2OM0|l Chain l, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|2 Chain 2, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|4 Chain 4, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|L Chain L, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|R Chain R, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|T Chain T, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|V Chain V, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|Y Chain Y, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|b Chain b, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|d Chain d, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|f Chain f, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|h Chain h, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|j Chain j, Insulin B chain [Homo sapiens] &gt;pdb|2OM1|l Chain l, Insulin B chain [Homo sapiens] &gt;pdb|2OMG|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2OMG|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|2OMG|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|2OMH|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2OMH|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|2OMH|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|2OMI|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2OMI|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|2OMI|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|2OMI|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|2OMI|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|2OMI|L Chain L, Insulin B chain [Homo sapiens] &gt;pdb|2QIU|B Chain B, Insulin [Homo sapiens] &gt;pdb|2QIU|D Chain D, Insulin [Homo sapiens] &gt;pdb|2R34|B Chain B, Insulin [Homo sapiens] &gt;pdb|2R34|D Chain D, Insulin [Homo sapiens] &gt;pdb|2R35|B Chain B, Insulin [Homo sapiens] &gt;pdb|2R35|D Chain D, Insulin [Homo sapiens] &gt;pdb|2R36|B Chain B, Insulin [Homo sapiens] &gt;pdb|2R36|D Chain D, Insulin [Homo sapiens] &gt;pdb|2VJZ|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2VJZ|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2VK0|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2VK0|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WC0|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WC0|F Chain F, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS6|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS6|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|3AIY|B Chain B, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|3AIY|D Chain D, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|3AIY|F Chain F, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|3AIY|H Chain H, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|3AIY|J Chain J, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|3AIY|L Chain L, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|3EXX|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3EXX|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|3FQ9|B Chain B, Insulin [synthetic construct] &gt;pdb|3FQ9|D Chain D, Insulin [synthetic construct] &gt;pdb|3ILG|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3ILG|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|3INC|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3INC|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|L Chain L, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|N Chain N, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|P Chain P, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|S Chain S, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|U Chain U, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|W Chain W, Insulin B chain [Homo sapiens] &gt;pdb|3IR0|Y Chain Y, Insulin B chain [Homo sapiens] &gt;pdb|3KQ6|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3KQ6|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|3P33|B Chain B, Insulin [Homo sapiens] &gt;pdb|3P33|D Chain D, Insulin [Homo sapiens] &gt;pdb|3P33|F Chain F, Insulin [Homo sapiens] &gt;pdb|3P33|H Chain H, Insulin [Homo sapiens] &gt;pdb|3Q6E|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3Q6E|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|3TT8|B Chain B, INSULIN B-CHAIN [Homo sapiens] &gt;pdb|3TT8|D Chain D, INSULIN B-CHAIN [Homo sapiens] &gt;pdb|3V19|B Chain B, Insulin [Homo sapiens] &gt;pdb|3V19|D Chain D, Insulin [Homo sapiens] &gt;pdb|3W11|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3W7Y|B Chain B, Insulin [Homo sapiens] &gt;pdb|3W7Y|D Chain D, Insulin [Homo sapiens] &gt;pdb|3W7Z|B Chain B, Insulin [Homo sapiens] &gt;pdb|3W7Z|D Chain D, Insulin [Homo sapiens] &gt;pdb|3W80|B Chain B, Insulin [Homo sapiens] &gt;pdb|3W80|D Chain D, Insulin [Homo sapiens] &gt;pdb|3W80|F Chain F, Insulin [Homo sapiens] &gt;pdb|3W80|H Chain H, Insulin [Homo sapiens] &gt;pdb|3ZU1|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|3ZU1|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4AIY|B Chain B, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|4AIY|D Chain D, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|4AIY|F Chain F, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|4AIY|H Chain H, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|4AIY|J Chain J, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|4AIY|L Chain L, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|4EWW|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EWW|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EWX|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EWX|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EWZ|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EWZ|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EX0|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EX0|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EX1|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EX1|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EXX|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EXX|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EY1|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EY1|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EY9|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EY9|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EYD|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EYD|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EYN|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EYN|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4EYP|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4EYP|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F0N|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F0N|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F0O|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F0O|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F1A|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F1A|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F1B|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F1B|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F1C|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F1C|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F1D|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F1D|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F1F|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F1F|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F1G|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F1G|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F4T|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F4T|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F4V|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F4V|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F51|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F51|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4F8F|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4F8F|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4FG3|B Chain B, Insulin [Homo sapiens] &gt;pdb|4FG3|D Chain D, Insulin [Homo sapiens] &gt;pdb|4FKA|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4FKA|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4OGA|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4RXW|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4RXW|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4XC4|B Chain B, Insulin [Homo sapiens] &gt;pdb|4XC4|D Chain D, Insulin [Homo sapiens] &gt;pdb|5AIY|B Chain B, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|5AIY|D Chain D, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|5AIY|F Chain F, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|5AIY|H Chain H, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|5AIY|J Chain J, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|5AIY|L Chain L, PROTEIN (INSULIN) [synthetic construct] &gt;pdb|5BTS|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|5CNY|B Chain B, Insulin [Homo sapiens] &gt;pdb|5CNY|D Chain D, Insulin [Homo sapiens] &gt;pdb|5CO2|B Chain B, Insulin [Homo sapiens] &gt;pdb|5CO2|D Chain D, Insulin [Homo sapiens] &gt;pdb|5CO6|B Chain B, Insulin [Homo sapiens] &gt;pdb|5CO6|D Chain D, Insulin [Homo sapiens] &gt;pdb|5CO9|B Chain B, Insulin [Homo sapiens] &gt;pdb|5CO9|D Chain D, Insulin [Homo sapiens] &gt;pdb|5E7W|B Chain B, Insulin [Homo sapiens] &gt;pdb|5E7W|D Chain D, Insulin [Homo sapiens] &gt;pdb|5EN9|B Chain B, Insulin chain B [Homo sapiens] &gt;pdb|5ENA|B Chain B, Insulin chain B [Homo sapiens] &gt;pdb|5MAM|1 Chain 1, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|3 Chain 3, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|5 Chain 5, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|L Chain L, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|N Chain N, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|P Chain P, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|R Chain R, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|T Chain T, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|V Chain V, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|X Chain X, Insulin B chain [Homo sapiens] &gt;pdb|5MAM|Z Chain Z, Insulin B chain [Homo sapiens] &gt;pdb|5MT3|B Chain B, Insulin [Homo sapiens] &gt;pdb|5MT3|D Chain D, Insulin [Homo sapiens] &gt;pdb|5MT3|F Chain F, Insulin [Homo sapiens] &gt;pdb|5MT3|H Chain H, Insulin [Homo sapiens] &gt;pdb|5MT3|J Chain J, Insulin [Homo sapiens] &gt;pdb|5MT3|L Chain L, Insulin [Homo sapiens] &gt;pdb|5MT3|N Chain N, Insulin [Homo sapiens] &gt;pdb|5MT3|P Chain P, Insulin [Homo sapiens] &gt;pdb|5MT3|R Chain R, Insulin [Homo sapiens] &gt;pdb|5MT3|T Chain T, Insulin [Homo sapiens] &gt;pdb|5MT3|V Chain V, Insulin [Homo sapiens] &gt;pdb|5MT3|X Chain X, Insulin [Homo sapiens] &gt;pdb|5MT3|Z Chain Z, Insulin [Homo sapiens] &gt;pdb|5MT3|b Chain b, Insulin [Homo sapiens] &gt;pdb|5MT3|d Chain d, Insulin [Homo sapiens] &gt;pdb|5MT3|f Chain f, Insulin [Homo sapiens] &gt;pdb|5MT9|B Chain B, Insulin [Homo sapiens] &gt;pdb|5MT9|D Chain D, Insulin [Homo sapiens] &gt;pdb|5MT9|F Chain F, Insulin [Homo sapiens] &gt;pdb|5MT9|H Chain H, Insulin [Homo sapiens] &gt;pdb|5MT9|J Chain J, Insulin [Homo sapiens] &gt;pdb|5MT9|L Chain L, Insulin [Homo sapiens] &gt;pdb|5MT9|N Chain N, Insulin [Homo sapiens] &gt;pdb|5MT9|P Chain P, Insulin [Homo sapiens] &gt;pdb|5MT9|R Chain R, Insulin [Homo sapiens] &gt;pdb|5MT9|T Chain T, Insulin [Homo sapiens] &gt;pdb|5MT9|V Chain V, Insulin [Homo sapiens] &gt;pdb|5MT9|X Chain X, Insulin [Homo sapiens] &gt;pdb|5MT9|Z Chain Z, Insulin [Homo sapiens] &gt;pdb|5MT9|b Chain b, Insulin [Homo sapiens] &gt;pdb|5MT9|d Chain d, Insulin [Homo sapiens] &gt;pdb|5MT9|f Chain f, Insulin [Homo sapiens] &gt;pdb|5T7R|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|5T7R|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|6GNQ|B Chain B, Insulin [Homo sapiens] &gt;pdb|6GNQ|D Chain D, Insulin [Homo sapiens] &gt;pdb|6GNQ|F Chain F, Insulin [Homo sapiens] &gt;pdb|6GNQ|H Chain H, Insulin [Homo sapiens] &gt;pdb|6GNQ|J Chain J, Insulin [Homo sapiens] &gt;pdb|6GNQ|L Chain L, Insulin [Homo sapiens] &gt;pdb|6GNQ|N Chain N, Insulin [Homo sapiens] &gt;pdb|6GNQ|P Chain P, Insulin [Homo sapiens] &gt;pdb|6GNQ|R Chain R, Insulin [Homo sapiens] &gt;pdb|6GNQ|T Chain T, Insulin [Homo sapiens] &gt;pdb|6GNQ|V Chain V, Insulin [Homo sapiens] &gt;pdb|6GNQ|X Chain X, Insulin [Homo sapiens] &gt;pdb|6H3M|B Chain B, Insulin [Homo sapiens] &gt;pdb|6H3M|D Chain D, Insulin [Homo sapiens] &gt;pdb|6H3M|F Chain F, Insulin [Homo sapiens] &gt;pdb|6H3M|H Chain H, Insulin [Homo sapiens] &gt;pdb|6H3M|J Chain J, Insulin [Homo sapiens] &gt;pdb|6H3M|L Chain L, Insulin [Homo sapiens] &gt;pdb|6H3M|P Chain P, Insulin [Homo sapiens] &gt;pdb|6H3M|Q Chain Q, Insulin [Homo sapiens] &gt;pdb|6HN5|B Chain B, Insulin [Homo sapiens] &gt;pdb|6JR3|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|6JR3|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|6JR3|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|6JR3|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|6JR3|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|6JR3|L Chain L, Insulin B chain [Homo sapiens] &gt;pdb|6P4Z|B Chain B, Insulin chain B [Homo sapiens] &gt;pdb|6P4Z|D Chain D, Insulin chain B [Homo sapiens] &gt;pdb|6S34|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|6SOF|F Chain F, Insulin [Homo sapiens] &gt;pdb|6SOF|H Chain H, Insulin [Homo sapiens] &gt;pdb|6SOF|J Chain J, Insulin [Homo sapiens] &gt;pdb|6SOF|L Chain L, Insulin [Homo sapiens] &gt;pdb|6VEP|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|6VEP|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|6VEP|N Chain N, Insulin B chain [Homo sapiens] &gt;pdb|6VEP|T Chain T, Insulin B chain [Homo sapiens] &gt;pdb|6Z7W|J Chain J, Insulin [Homo sapiens] &gt;pdb|6Z7W|L Chain L, Insulin [Homo sapiens] &gt;pdb|6Z7W|N Chain N, Insulin [Homo sapiens] &gt;pdb|6Z7W|P Chain P, Insulin [Homo sapiens] &gt;pdb|6Z7Y|F Chain F, Insulin [Homo sapiens] &gt;pdb|6Z7Y|H Chain H, Insulin [Homo sapiens] &gt;pdb|7MD4|P Chain P, Insulin B chain [Homo sapiens] &gt;pdb|7MD4|R Chain R, Insulin B chain [Homo sapiens] &gt;pdb|7MD4|T Chain T, Insulin B chain [Homo sapiens] &gt;pdb|7MD4|V Chain V, Insulin B chain [Homo sapiens] &gt;pdb|7MD5|P Chain P, Insulin B chain [Homo sapiens] &gt;pdb|7MD5|R Chain R, Insulin B chain [Homo sapiens] &gt;pdb|7MD5|T Chain T, Insulin B chain [Homo sapiens] &gt;pdb|7MD5|V Chain V, Insulin B chain [Homo sapiens] &gt;pdb|7PG0|D Chain D, Insulin [Homo sapiens] &gt;pdb|7PG0|F Chain F, Insulin [Homo sapiens] &gt;pdb|7PG0|J Chain J, Insulin [Homo sapiens] &gt;pdb|7PG2|D Chain D, Insulin [Homo sapiens] &gt;pdb|7PG2|F Chain F, Insulin [Homo sapiens] &gt;pdb|7PG2|J Chain J, Insulin [Homo sapiens] &gt;pdb|7PG3|D Chain D, Insulin [Homo sapiens] &gt;pdb|7PG3|F Chain F, Insulin [Homo sapiens] &gt;pdb|7PG3|J Chain J, Insulin [Homo sapiens] &gt;pdb|7PG4|D Chain D, Insulin [Homo sapiens] &gt;pdb|7PG4|J Chain J, Insulin [Homo sapiens] &gt;pdb|7QAC|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|7QID|F Chain F, Insulin [Homo sapiens] &gt;pdb|7QID|J Chain J, Insulin [Homo sapiens] &gt;pdb|7QID|L Chain L, Insulin [Homo sapiens] &gt;pdb|7S4Y|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|7S4Y|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|7SL1|C Chain C, Insulin B chain [Homo sapiens] &gt;pdb|7SL1|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|7SL2|C Chain C, Insulin B chain [Homo sapiens] &gt;pdb|7SL2|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|7SL2|E Chain E, Insulin B chain [Homo sapiens] &gt;pdb|7SL2|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|7SL3|C Chain C, Insulin B chain [Homo sapiens] &gt;pdb|7SL3|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|7SL7|G Chain G, Insulin B chain [Homo sapiens] &gt;pdb|7SL7|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|7SL7|I Chain I, Insulin B chain [Homo sapiens] &gt;pdb|7SL7|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|7U6E|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|7V3P|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|7Z5L|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|7Z5Q|B Chain B, Insulin [Homo sapiens] &gt;pdb|8GSG|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|8GSG|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|8ONI|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|8ONI|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|8ONK|A Chain A, Insulin B chain [Homo sapiens] &gt;pdb|8ONK|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|8RVT|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|8RVT|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|8RVT|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|8RVT|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|8RVT|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|a Chain a, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|b Chain b, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|c Chain c, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|d Chain d, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|e Chain e, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|f Chain f, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|g Chain g, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|h Chain h, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|i Chain i, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|j Chain j, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|k Chain k, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|l Chain l, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|m Chain m, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|n Chain n, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|o Chain o, Insulin B chain [Homo sapiens] &gt;pdb|8SBD|p Chain p, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1AI0_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>5.49959e-16</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1IZA|B</Hit_id>
+  <Hit_def>Chain B, INSULIN [Sus scrofa] &gt;pdb|1IZA|D Chain D, INSULIN [Sus scrofa] &gt;pdb|1IZB|B Chain B, INSULIN [Sus scrofa] &gt;pdb|1IZB|D Chain D, INSULIN [Sus scrofa]</Hit_def>
+  <Hit_accession>1IZA_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.56647e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVQALYLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLV+ALYLVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|4UNE|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4UNE|D Chain D, INSULIN B CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>4UNE_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.70922e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFFTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFF+TPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1HLS|B</Hit_id>
+  <Hit_def>Chain B, INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1HLS_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.53061e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALHLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEAL+LVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|1B9E|B</Hit_id>
+  <Hit_def>Chain B, PROTEIN (INSULIN) [Homo sapiens] &gt;pdb|1B9E|D Chain D, PROTEIN (INSULIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1B9E_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.67236e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGEHLVEALYLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCG HLVEALYLVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|2MVD|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>2MVD_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.70165e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGEQGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGE+GFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|1APH|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B CHAIN (PH 7) [Bos taurus] &gt;pdb|1B17|B Chain B, PROTEIN (INSULIN b chain) [Sus scrofa] &gt;pdb|1B18|B Chain B, PROTEIN (INSULIN b chain) [Sus scrofa] &gt;pdb|1B19|B Chain B, PROTEIN (INSULIN B CHAIN) [Sus scrofa] &gt;pdb|1B2A|B Chain B, PROTEIN (INSULIN B CHAIN) [Sus scrofa] &gt;pdb|1B2B|B Chain B, PROTEIN (INSULIN B CHAIN) [Sus scrofa] &gt;pdb|1B2C|B Chain B, PROTEIN (INSULIN B CHAIN) [Sus scrofa] &gt;pdb|1B2D|B Chain B, PROTEIN (INSULIN B CHAIN) [Sus scrofa] &gt;pdb|1B2E|B Chain B, PROTEIN (INSULIN b chain) [Sus scrofa] &gt;pdb|1B2F|B Chain B, PROTEIN (INSULIN B CHAIN) [Sus scrofa] &gt;pdb|1B2G|B Chain B, PROTEIN (INSULIN b chain) [Sus scrofa] &gt;pdb|1BPH|B Chain B, INSULIN B CHAIN (PH 9) [Bos taurus] &gt;pdb|1CPH|B Chain B, INSULIN (PH 10) [Bos taurus] &gt;pdb|1DPH|B Chain B, INSULIN B CHAIN (PH 11) [Bos taurus] &gt;pdb|1M5A|B Chain B, Insulin B Chain [Sus scrofa] &gt;pdb|1M5A|D Chain D, Insulin B Chain [Sus scrofa] &gt;pdb|1MPJ|B Chain B, PHENOL INSULIN [Sus scrofa] &gt;pdb|1MPJ|D Chain D, PHENOL INSULIN [Sus scrofa] &gt;pdb|1WAV|B Chain B, INSULIN [Sus scrofa] &gt;pdb|1WAV|D Chain D, INSULIN [Sus scrofa] &gt;pdb|1WAV|F Chain F, INSULIN [Sus scrofa] &gt;pdb|1WAV|H Chain H, INSULIN [Sus scrofa] &gt;pdb|1WAV|J Chain J, INSULIN [Sus scrofa] &gt;pdb|1WAV|L Chain L, INSULIN [Sus scrofa] &gt;pdb|1ZNI|B Chain B, INSULIN [Sus scrofa] &gt;pdb|1ZNI|D Chain D, INSULIN [Sus scrofa] &gt;pdb|2A3G|B Chain B, Insulin [Bos taurus] &gt;pdb|2A3G|D Chain D, Insulin [Bos taurus] &gt;pdb|2BN1|B Chain B, Insulin B Chain [Bos taurus] &gt;pdb|2BN3|B Chain B, INSULIN [Bos taurus] &gt;pdb|2EFA|B Chain B, Insulin [Sus scrofa] &gt;pdb|2G4M|B Chain B, Insulin B chain [Sus scrofa] &gt;pdb|2TCI|B Chain B, THIOCYANATE INSULIN [Sus scrofa] &gt;pdb|2TCI|D Chain D, THIOCYANATE INSULIN [Sus scrofa] &gt;pdb|2ZP6|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|2ZP6|D Chain D, Insulin B chain [Bos taurus] &gt;pdb|2ZPP|B Chain B, Insulin B chain [Sus scrofa] &gt;pdb|3FHP|B Chain B, Insulin [Sus scrofa] &gt;pdb|3FHP|D Chain D, Insulin [Sus scrofa] &gt;pdb|3GKY|B Chain B, Insulin B chain [Sus scrofa] &gt;pdb|3GKY|D Chain D, Insulin B chain [Sus scrofa] &gt;pdb|3I3Z|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3I40|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3INS|B Chain B, INSULIN (CHAIN B) [Sus scrofa] &gt;pdb|3INS|D Chain D, INSULIN (CHAIN B) [Sus scrofa] &gt;pdb|3MTH|B Chain B, METHYLPARABEN INSULIN [Sus scrofa] &gt;pdb|3MTH|D Chain D, METHYLPARABEN INSULIN [Sus scrofa] &gt;pdb|3RTO|B Chain B, Insulin [Sus scrofa] &gt;pdb|3RTO|D Chain D, Insulin [Sus scrofa] &gt;pdb|3T2A|B Chain B, Insulin B chain [Sus scrofa] &gt;pdb|4A7E|B Chain B, INSULIN B CHAIN [Sus scrofa] &gt;pdb|4BS3|B Chain B, INSULIN B CHAIN [Bos taurus] &gt;pdb|4E7T|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|4E7T|D Chain D, Insulin B chain [Bos taurus] &gt;pdb|4E7U|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|4E7U|D Chain D, Insulin B chain [Bos taurus] &gt;pdb|4E7V|2 Chain 2, Insulin B chain [Bos taurus] &gt;pdb|4E7V|4 Chain 4, Insulin B chain [Bos taurus] &gt;pdb|4E7V|6 Chain 6, Insulin B chain [Bos taurus] &gt;pdb|4E7V|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|4E7V|D Chain D, Insulin B chain [Bos taurus] &gt;pdb|4E7V|F Chain F, Insulin B chain [Bos taurus] &gt;pdb|4E7V|H Chain H, Insulin B chain [Bos taurus] &gt;pdb|4E7V|J Chain J, Insulin B chain [Bos taurus] &gt;pdb|4E7V|L Chain L, Insulin B chain [Bos taurus] &gt;pdb|4E7V|N Chain N, Insulin B chain [Bos taurus] &gt;pdb|4E7V|P Chain P, Insulin B chain [Bos taurus] &gt;pdb|4E7V|R Chain R, Insulin B chain [Bos taurus] &gt;pdb|4E7V|T Chain T, Insulin B chain [Bos taurus] &gt;pdb|4E7V|V Chain V, Insulin B chain [Bos taurus] &gt;pdb|4E7V|X Chain X, Insulin B chain [Bos taurus] &gt;pdb|4E7V|Z Chain Z, Insulin B chain [Bos taurus] &gt;pdb|4I5Y|B Chain B, Insulin [Bos taurus] &gt;pdb|4I5Z|B Chain B, Insulin [Bos taurus] &gt;pdb|4IDW|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|4IDW|D Chain D, Insulin B chain [Bos taurus] &gt;pdb|4IHN|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|4INS|B Chain B, INSULIN (CHAIN B) [Sus scrofa] &gt;pdb|4INS|D Chain D, INSULIN (CHAIN B) [Sus scrofa] &gt;pdb|4M4F|B Chain B, Insulin [Bos taurus] &gt;pdb|4M4F|D Chain D, Insulin [Bos taurus] &gt;pdb|4M4H|B Chain B, Insulin [Bos taurus] &gt;pdb|4M4H|D Chain D, Insulin [Bos taurus] &gt;pdb|4M4I|B Chain B, Insulin [Bos taurus] &gt;pdb|4M4I|D Chain D, Insulin [Bos taurus] &gt;pdb|4M4J|B Chain B, Insulin [Bos taurus] &gt;pdb|4M4J|D Chain D, Insulin [Bos taurus] &gt;pdb|4M4L|B Chain B, Insulin [Bos taurus] &gt;pdb|4M4L|D Chain D, Insulin [Bos taurus] &gt;pdb|4M4M|B Chain B, Insulin [Bos taurus] &gt;pdb|4M4M|D Chain D, Insulin [Bos taurus] &gt;pdb|5D52|B Chain B, Insulin B chain [Sus scrofa] &gt;pdb|5D53|B Chain B, Insulin A chain [Sus scrofa] &gt;pdb|5D54|B Chain B, Insulin A chain [Sus scrofa] &gt;pdb|5D5E|B Chain B, Insulin B chain [Sus scrofa] &gt;pdb|5FB6|B Chain B, Insulin Chain B [Sus scrofa] &gt;pdb|5KQV|B Chain B, Insulin [Bos taurus] &gt;pdb|5KQV|J Chain J, Insulin [Bos taurus] &gt;pdb|5LIS|B Chain B, Insulin [Sus scrofa] &gt;pdb|5MIZ|B Chain B, Insulin [Bos taurus] &gt;pdb|6CE7|O Chain O, Insulin B chain [Ovis aries] &gt;pdb|6CE9|L Chain L, Insulin B chain [Ovis aries] &gt;pdb|6CE9|O Chain O, Insulin B chain [Ovis aries] &gt;pdb|6CEB|L Chain L, Insulin B chain [Ovis aries] &gt;pdb|6CEB|O Chain O, Insulin B chain [Ovis aries] &gt;pdb|6KH8|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|6KH9|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|6KHA|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|6Q8Q|B Chain B, Insulin [Bos taurus] &gt;pdb|6QQ7|B Chain B, Insulin [Bos taurus] &gt;pdb|6QQG|B Chain B, Insulin [Bos taurus] &gt;pdb|6QRH|B Chain B, Insulin [Bos taurus] &gt;pdb|6QRK|B Chain B, Insulin [Bos taurus] &gt;pdb|6Z7Z|F Chain F, Insulin [Sus scrofa] &gt;pdb|6Z7Z|H Chain H, Insulin [Sus scrofa] &gt;pdb|6ZHB|B Chain B, Insulin [Bos taurus] &gt;pdb|6ZHB|D Chain D, Insulin [Bos taurus] &gt;pdb|7AC4|B Chain B, Insulin [Sus scrofa] &gt;pdb|7ELJ|B Chain B, Insulin B chain [Bos taurus] &gt;pdb|7INS|B Chain B, INSULIN (CHAIN B) [Sus scrofa] &gt;pdb|7INS|D Chain D, INSULIN (CHAIN B) [Sus scrofa] &gt;pdb|7INS|F Chain F, INSULIN (CHAIN B) [Sus scrofa] &gt;pdb|9INS|B Chain B, INSULIN (CHAIN B) [Sus scrofa]</Hit_def>
+  <Hit_accession>1APH_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.98011e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPK</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPK</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|7SL4|C</Hit_id>
+  <Hit_def>Chain C, Insulin B chain [Homo sapiens] &gt;pdb|7SL4|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|7SL6|E Chain E, Insulin B chain [Homo sapiens] &gt;pdb|7SL6|F Chain F, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>7SL4_C</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.47137e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYRVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALY VCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1UZ9|B</Hit_id>
+  <Hit_def>Chain B, INSULIN [Homo sapiens] &gt;pdb|1XDA|B Chain B, FATTY ACID ACYLATED INSULIN [Homo sapiens] &gt;pdb|1XDA|D Chain D, FATTY ACID ACYLATED INSULIN [Homo sapiens] &gt;pdb|1XDA|F Chain F, FATTY ACID ACYLATED INSULIN [Homo sapiens] &gt;pdb|1XDA|H Chain H, FATTY ACID ACYLATED INSULIN [Homo sapiens] &gt;pdb|2C8Q|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2C8R|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2W44|B Chain B, INSULIN [Homo sapiens] &gt;pdb|2W44|D Chain D, INSULIN [Homo sapiens] &gt;pdb|2W44|F Chain F, INSULIN [Homo sapiens] &gt;pdb|3E7Y|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3E7Y|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|3E7Z|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3E7Z|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4AJX|B Chain B, INSULIN [Homo sapiens] &gt;pdb|4AJX|D Chain D, INSULIN [Homo sapiens] &gt;pdb|4AJX|F Chain F, INSULIN [Homo sapiens] &gt;pdb|4AJX|H Chain H, INSULIN [Homo sapiens] &gt;pdb|4AJX|J Chain J, INSULIN [Homo sapiens] &gt;pdb|4AJX|L Chain L, INSULIN [Homo sapiens] &gt;pdb|4AJZ|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4AJZ|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4AK0|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4AKJ|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4AKJ|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4IYD|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4IYF|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|5VIZ|B Chain B, Insulin, chain alpha [Homo sapiens] &gt;pdb|6O17|B Chain B, Insulin chain B [Homo sapiens] &gt;pdb|6OR0|B Chain B, Insulin chain B [Bos taurus] &gt;pdb|7NHU|B Chain B, Insulin [Homo sapiens] &gt;pdb|7QGF|BBB Chain BBB, Insulin B chain [Homo sapiens] &gt;pdb|8HGZ|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|8HGZ|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|8HGZ|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|8HGZ|N Chain N, Insulin B chain [Homo sapiens] &gt;pdb|8IPZ|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|8IPZ|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|8IPZ|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|8IPZ|H Chain H, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1UZ9_B</Hit_accession>
+  <Hit_len>29</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.50626e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPK</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPK</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|1QIY|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIY|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIY|F Chain F, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIY|H Chain H, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIY|J Chain J, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIY|L Chain L, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIZ|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIZ|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIZ|F Chain F, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIZ|H Chain H, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIZ|J Chain J, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QIZ|L Chain L, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QJ0|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|1QJ0|D Chain D, INSULIN B CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1QIY_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>3.78762e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQYLCGSHLVEALYLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQ+LCGSHLVEALYLVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1ZEG|B</Hit_id>
+  <Hit_def>Chain B, INSULIN [Homo sapiens] &gt;pdb|1ZEG|D Chain D, INSULIN [Homo sapiens] &gt;pdb|1ZEH|B Chain B, INSULIN [Homo sapiens] &gt;pdb|1ZEH|D Chain D, INSULIN [Homo sapiens] &gt;pdb|4GBC|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4GBC|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4GBI|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4GBI|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4GBK|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4GBK|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4GBL|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4GBL|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|4GBN|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|4GBN|D Chain D, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1ZEG_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.13268e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTDKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYT KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|3V1G|B</Hit_id>
+  <Hit_def>Chain B, Insulin [Homo sapiens] &gt;pdb|3V1G|D Chain D, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>3V1G_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.46029e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGXRGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCG RGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|3JSD|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [synthetic construct] &gt;pdb|3JSD|D Chain D, Insulin B chain [synthetic construct] &gt;pdb|3P2X|B Chain B, Insulin [Homo sapiens] &gt;pdb|3P2X|D Chain D, Insulin [Homo sapiens] &gt;pdb|4CXL|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4CXN|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4CY7|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4CY7|D Chain D, INSULIN B CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>3JSD_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.71008e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCXSHLVEALYLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLC SHLVEALYLVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|8Z4B|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [Homo sapiens] &gt;pdb|8Z4B|D Chain D, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>8Z4B_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.13914e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGEKGFFYTDKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGE+GFFYT KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|1W8P|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B-CHAIN [Homo sapiens] &gt;pdb|1W8P|D Chain D, INSULIN B-CHAIN [Homo sapiens] &gt;pdb|1W8P|F Chain F, INSULIN B-CHAIN [Homo sapiens] &gt;pdb|1W8P|H Chain H, INSULIN B-CHAIN [Homo sapiens] &gt;pdb|1W8P|J Chain J, INSULIN B-CHAIN [Homo sapiens] &gt;pdb|1W8P|L Chain L, INSULIN B-CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1W8P_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.25284e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFYFTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGF++TPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|2M2M|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2M2N|B Chain B, Insulin B chain [Homo sapiens] &gt;pdb|3ZI3|B Chain B, INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2M2M_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.46063e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGHFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERG FYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|3BXQ|B</Hit_id>
+  <Hit_def>Chain B, insulin B chain [unidentified] &gt;pdb|3BXQ|D Chain D, insulin B chain [unidentified]</Hit_def>
+  <Hit_accession>3BXQ_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.9727e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQRLCGSHLVEALYLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQ LCGSHLVEALYLVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|5HPR|B</Hit_id>
+  <Hit_def>Chain B, Insulin B-Chain [Homo sapiens] &gt;pdb|5HPU|B Chain B, Insulin, chain B [Homo sapiens] &gt;pdb|5HPU|D Chain D, Insulin, chain B [Homo sapiens] &gt;pdb|5HQI|B Chain B, Insulin B-Chain [Homo sapiens] &gt;pdb|5HRQ|B Chain B, Insulin B-Chain [Homo sapiens] &gt;pdb|5HRQ|D Chain D, Insulin B-Chain [Homo sapiens] &gt;pdb|5HRQ|F Chain F, Insulin B-Chain [Homo sapiens] &gt;pdb|5HRQ|H Chain H, Insulin B-Chain [Homo sapiens] &gt;pdb|5HRQ|J Chain J, Insulin B-Chain [Homo sapiens] &gt;pdb|5HRQ|L Chain L, Insulin B-Chain [Homo sapiens] &gt;pdb|5UOZ|B Chain B, Insulin Chain B [Homo sapiens] &gt;pdb|5UQA|B Chain B, Insulin, chain B [Homo sapiens] &gt;pdb|5UQA|D Chain D, Insulin, chain B [Homo sapiens] &gt;pdb|5UQA|F Chain F, Insulin, chain B [Homo sapiens] &gt;pdb|5UQA|H Chain H, Insulin, chain B [Homo sapiens] &gt;pdb|5UQA|J Chain J, Insulin, chain B [Homo sapiens] &gt;pdb|5UQA|L Chain L, Insulin, chain B [Homo sapiens] &gt;pdb|5URT|B Chain B, Insulin Chain B [Homo sapiens] &gt;pdb|5URU|B Chain B, Insulin Chain B [Homo sapiens] &gt;pdb|5URU|D Chain D, Insulin Chain B [Homo sapiens] &gt;pdb|5URU|F Chain F, Insulin Chain B [Homo sapiens] &gt;pdb|5URU|H Chain H, Insulin Chain B [Homo sapiens] &gt;pdb|5USP|B Chain B, Insulin Chain B [Homo sapiens] &gt;pdb|5USS|B Chain B, Insulin Chain B [Homo sapiens] &gt;pdb|5USS|D Chain D, Insulin Chain B [Homo sapiens] &gt;pdb|5USV|B Chain B, Insulin Chain B [Homo sapiens] &gt;pdb|5UU2|B Chain B, Insulin Chain B [Homo sapiens] &gt;pdb|5UU3|B Chain B, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|D Chain D, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|F Chain F, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|H Chain H, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|J Chain J, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|L Chain L, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|N Chain N, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|P Chain P, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|R Chain R, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|T Chain T, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|V Chain V, Insulin, chain A [Homo sapiens] &gt;pdb|5UU3|X Chain X, Insulin, chain A [Homo sapiens] &gt;pdb|5UU4|B Chain B, Insulin B Chain [Homo sapiens] &gt;pdb|5UU4|D Chain D, Insulin B Chain [Homo sapiens]</Hit_def>
+  <Hit_accession>5HPR_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.28333e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTXKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYT KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|3ZQR|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|3ZQR|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|3ZQR|F Chain F, INSULIN B CHAIN [Homo sapiens] &gt;pdb|3ZQR|H Chain H, INSULIN B CHAIN [Homo sapiens] &gt;pdb|3ZQR|J Chain J, INSULIN B CHAIN [Homo sapiens] &gt;pdb|3ZQR|L Chain L, INSULIN B CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>3ZQR_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.36312e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFXYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGF YTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|2M2O|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [Homo sapiens] &gt;pdb|2M2P|B Chain B, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>2M2O_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.36312e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGXFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERG FYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|2WRX|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WRX|D Chain D, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS0|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS1|B Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS6|F Chain F, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS6|H Chain H, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS6|J Chain J, INSULIN B CHAIN [Homo sapiens] &gt;pdb|2WS6|L Chain L, INSULIN B CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2WRX_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.44379e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFXTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFF TPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|7RZE|b</Hit_id>
+  <Hit_def>Chain b, Insulin B chain [Homo sapiens] &gt;pdb|7RZF|b Chain b, Insulin B chain [Homo sapiens] &gt;pdb|7RZI|b Chain b, Insulin B chain [Homo sapiens] &gt;pdb|7RZI|d Chain d, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>7RZE_b</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>8.3007e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFYTPLT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFFYTP T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|4UNG|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B CHAIN [Homo sapiens] &gt;pdb|4UNG|D Chain D, INSULIN B CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>4UNG_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>8.76546e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFNTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFF TPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|1HIQ|B</Hit_id>
+  <Hit_def>Chain B, INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1HIQ_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>8.76546e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGSFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERG FYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|1MHI|B</Hit_id>
+  <Hit_def>Chain B, INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1MHI_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.41567e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>VNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>VNQHLCGDHLVEALYLVCGERGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>VNQHLCG HLVEALYLVCGERGFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|1HIT|B</Hit_id>
+  <Hit_def>Chain B, INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1HIT_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.66696e-14</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGGFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERG FYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|6TYH|B</Hit_id>
+  <Hit_def>Chain B, Insulin B chain [Homo sapiens] &gt;pdb|6TYH|D Chain D, Insulin B chain [Homo sapiens] &gt;pdb|6TYH|F Chain F, Insulin B chain [Homo sapiens] &gt;pdb|6TYH|H Chain H, Insulin B chain [Homo sapiens] &gt;pdb|6TYH|J Chain J, Insulin B chain [Homo sapiens] &gt;pdb|6TYH|L Chain L, Insulin B chain [Homo sapiens]</Hit_def>
+  <Hit_accession>6TYH_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.70368e-14</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGECGFFYTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGE GFFYTPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|4UNH|B</Hit_id>
+  <Hit_def>Chain B, INSULIN B CHAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>4UNH_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.8588e-14</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVNQHLCGSHLVEALYLVCGERGFFGTPKT</Hsp_hseq>
+      <Hsp_midline>FVNQHLCGSHLVEALYLVCGERGFF TPKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|6GV0|B</Hit_id>
+  <Hit_def>Chain B, Insulin [Homo sapiens] &gt;pdb|6GV0|D Chain D, Insulin [Homo sapiens] &gt;pdb|7RKD|B Chain B, Insulin B chain analog [Homo sapiens] &gt;pdb|7RKD|D Chain D, Insulin B chain analog [Homo sapiens]</Hit_def>
+  <Hit_accession>6GV0_B</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.89974e-14</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>FVNQHLCGSHLVEALYLVCGERGFFYTPKT</Hsp_qseq>
+      <Hsp_hseq>FVKQHLCGSHLVEALYLVCGERGFFYTPET</Hsp_hseq>
+      <Hsp_midline>FV QHLCGSHLVEALYLVCGERGFFYTP+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>161556</Statistics_db-num>
+      <Statistics_db-len>45285497</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
