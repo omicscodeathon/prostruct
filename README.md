@@ -45,9 +45,9 @@ PyRosetta’s comparative modeling tools were employed for initial model generat
 
 ##  Team Members
 
-## 1. Shivani Pawar
-## 2. Wilson Sena Kwaku Banini
-## 3. Musa Muhammad Shamsuddeen
-## 4. Toheeb Jumah
-## 5. Nigel Dolling
-## 6. Abdulwasiu Tiamiyu
+#### 1. Shivani Pawar
+#### 2. Wilson Sena Kwaku Banini
+#### 3. Musa Muhammad Shamsuddeen
+#### 4. Toheeb Jumah
+#### 5. Nigel Dolling
+#### 6. Abdulwasiu Tiamiyu
