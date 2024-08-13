@@ -14,10 +14,13 @@ def model(alignment_directory,structure_directory):
             structure_files_list.append(structure_file)
 
     for i in range(len(aligned_files_list)):
-        docker_command = f"docker run -v C:\\Users\\Wilson\\PycharmProjects\\omic:/prostruc registry.scicore.unibas.ch/schwede/promod3 build-model -f /prostruc/alignment_files/{aligned_files_list[i]} -p /prostruc/promod3_pdb_files/{structure_files_list[i]} -o /prostruc/modeled_structures/{structure_files_list[i]}_output_model.pdb"
+        docker_command = f"docker run -v C:\\Users\\Wilson\\PycharmProjects\\omic:/prostruc registry.scicore.unibas.ch/schwede/promod3 build-model -f /prostruc/PROSTRUC/alignment_files/{aligned_files_list[i]} -p /prostruc/PROSTRUC/promod3_input_pdb_files/{structure_files_list[i]} -o /prostruc/PROSTRUC/modeled_structures/{structure_files_list[i]}_output_model.pdb"
         result = subprocess.run(docker_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(result)
+
+        if result.returncode == 0:
+            print(f"{aligned_files_list[i]} built successfully")
+        else:
+            print(f"!!! {aligned_files_list[i]} failed to be built")
 
 
 
-# model(alignment_directory="alignment_files", structure_directory="promod3_pdb_files")
