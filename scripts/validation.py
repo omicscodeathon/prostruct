@@ -21,7 +21,7 @@ def validate(modeled_structures_directory,validation_model_structure,email,job_n
             for target_model in files:
                 target_model_filepath = os.path.join(modeled_structures_directory,target_model)
                 result_url = calculate_qmean(target_model=target_model_filepath,email=email,job_name=job_name)
-                time.sleep(200)
+                time.sleep(150)
                 qmean = get_qmean_result(results_url=result_url)
                 print(f"{target_model}: {qmean} :: {result_url}")
                 if qmean < float(0.6):
@@ -100,7 +100,3 @@ def get_qmean_result(results_url):
         return None
 
 
-# validation_model = predict_with_deep_learning(sequence="FEWRWADIAAECERFLGPNGFGGVQISPPNDHIVLNNPWRPWWQRYQPIGYNLCSRSGSENELRDMITRCNNVGVNIYVDAVINHMCGAGGGEGTHSSCGSWFSAGRRDFPTVPYSHLDFNDNKCRTGSGDIENYGDSNQVRDCRLVGLLDLALEKEYVRGKVVDFMNKLIDMGVAGFRVDACKHMWP")
-# validate(modeled_structures_directory="modeled_structures",validation_model_structure=validation_model,email="senawilson123@gmail.com",job_name='cap10')
-
-# print(get_qmean_result(results_url="https://swissmodel.expasy.org/qmean/t48vbG.json"))
