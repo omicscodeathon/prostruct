@@ -4,7 +4,6 @@ import os
 from datetime import date
 
 class Target:
-
     # Creates filesystem structure
     # Extracts sequence as text input or from a fasta file
     def __init__(self,job_name,seq=None,file_path=None):
@@ -24,16 +23,22 @@ class Target:
     def filemanager(self):
         try:
             self.create_directory(directory_name='blast_search_output')
-            self.create_directory(directory_name='fasta_files')
-            self.hits_directory = f"{self.job_name}_pdb_files"
+            self.create_directory(directory_name='input_fasta_files')
+            self.create_directory(directory_name='alignment_files')
+            self.create_directory(directory_name="promod3_input_pdb_files")
+            self.create_directory(directory_name="modeled_structures")
+            self.templates_directory = f"{self.job_name}_pdb_files"
+            self.alignment_files_directory = "alignment_files"
             self.blast_search_result = f"{self.job_name}_{date.today()}.xml"
             self.blast_search_output_path = os.path.join('blast_search_output',f"{self.job_name}_{date.today()}.xml")
 
 
+
             file_manager_info = {
-                'hits directory': self.hits_directory,
+                'templates directory': self.templates_directory,
                 'blast search result': self.blast_search_result,
-                'blast search output path': self.blast_search_output_path
+                'blast search output path': self.blast_search_output_path,
+                'alignment files directory': self.alignment_files_directory
             }
             return file_manager_info
 
@@ -47,7 +52,7 @@ class Target:
             pass
         else:
             os.mkdir(directory_name)
-            print(f"{directory_name} created")
+            # print(f"{directory_name} created")
 
 
 
@@ -96,7 +101,7 @@ class Target:
     def convert_to_fasta(self,filepath):
         try:
             new_file = f"{self.job_name}.fasta"
-            new_file_path = os.path.join('fasta_files',f"{new_file}")
+            new_file_path = os.path.join('input_fasta_files',f"{new_file}")
             with open(filepath,'r') as file_handler:
                 seq = file_handler.read()
 
@@ -124,7 +129,3 @@ class Target:
     # Returns teh path to the blast search result
     def get_blast_search_result_path(self):
         return self.blast_search_output_path
-
-
-
-
