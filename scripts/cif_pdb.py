@@ -19,7 +19,3 @@ def convert(source_directory,output_directory):
             path = os.path.join(source_directory,pdb_file)
             cif_to_pdb(filename=path,structure_id=pdb_file,directory=output_directory)
 
-
-convert(source_directory="cap5_pdb_files",output_directory="promod3_pdb_files")
-
-
