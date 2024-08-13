@@ -57,7 +57,7 @@ from analyser import basic_analysis
     # return report
 
 
-
+# Send the predicted structures and report to the user
 def send_report(recipient,job_name,modeled_structures_directory="modeled_structures",report=None):
     attachments = []
     receiver = recipient
@@ -77,9 +77,7 @@ def send_report(recipient,job_name,modeled_structures_directory="modeled_structu
                     target_model_filepath = os.path.join(modeled_structures_directory,target_model)
                     attachments.append(target_model_filepath)
 
-
-
-        yag = yagmail.SMTP("prostruct.omic@gmail.com",password="ztzwfcurbjfkjxdj")
+        yag = yagmail.SMTP("prostruct.omic@gmail.com",password="####")
         yag.send(to=receiver, subject=f"Prostruc Job Result :: {job_name}", contents=body, attachments=attachments)
         print("[*] Report sent")
 
@@ -88,6 +86,4 @@ def send_report(recipient,job_name,modeled_structures_directory="modeled_structu
         return False
 
 
-# analysis_result = basic_analysis(sequence="MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN")
-# generate_report(filename="pro2.pdf",job_name="pro2",sequence_analysis_result=analysis_result)
-# print(analysis_result.keys())
+
