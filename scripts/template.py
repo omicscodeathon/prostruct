@@ -1,32 +1,35 @@
 from Bio import SearchIO
+from Bio.Blast import NCBIXML
 from Bio.PDB import PDBList
 from Bio.PDB import parse_pdb_header
+from cif_pdb import convert
 import os
 
 class Template:
     def __init__(self,file_system_info):
         self.blast_result_path = file_system_info['blast search output path']
-        self.hits_directory = file_system_info['hits directory']
+        self.templates_directory = file_system_info['templates directory']
         self.blast_search_result = file_system_info['blast search result']
 
 
-    def check_sequence_similarity(self, e_value_threshold):
+    def check_sequence_similarity(self,e_value_threshold,min_identity=30):
         try:
-            records = SearchIO.read(self.blast_result_path, 'blast-xml')
-            counter = 0
-            hit_list = []
-            for record in records:
-                # print(record)
-                counter = counter +1
-                for data in record:
-                    if data.evalue < e_value_threshold:
-                        param = {
-                            "id": record.id,
-                            "evalue": data.evalue,
-                            "bit score": data.bitscore
-                        }
-                        hit_list.append(param)
-            return hit_list
+            match_list = []
+            with open(self.blast_result_path,'r') as file_handler:
+                blast_record = NCBIXML.read(file_handler)
+
+            if blast_record.alignments:
+                for i, alignment in enumerate(blast_record.alignments):
+                    for hsp in alignment.hsps:
+                        percentage_identity = (hsp.identities / hsp.align_length) * 100
+                        if hsp.expect < e_value_threshold and percentage_identity > min_identity:
+                            param = {
+                                "id": alignment.hit_id.split('|')[1],
+                                "evalue": hsp.expect,
+                                "identity":percentage_identity
+                            }
+                            match_list.append(param)
+            return match_list
 
         except Exception as error:
             return None
@@ -35,14 +38,15 @@ class Template:
     # Arguement for this method is a list of pdb file IDS
     # The return value is the list of filenames that have been downloaded
     # If return value is False, then file download failed
-    def download_pdb_files(self,hit_list):
+    def download_pdb_files(self,match_list):
         try:
             downloader = PDBList()
             id_list = []
-            for item in hit_list:
-                item_id = (item['id'].split("|"))[1]
+            for item in match_list:
+                item_id = item['id']
                 id_list.append(item_id)
-            download_result = downloader.download_pdb_files(pdb_codes=id_list, pdir= self.hits_directory)
+            download_result = downloader.download_pdb_files(pdb_codes=id_list, pdir= self.templates_directory)
+            convert(source_directory=self.templates_directory,output_directory="promod3_input_pdb_files")
             return download_result
 
         except Exception as error:
@@ -51,14 +55,12 @@ class Template:
 
     def check_for_missing_residues(self):
         try:
-            counter = 0
             missing_residue = True
-            if os.path.exists(self.hits_directory):
+            if os.path.exists(self.templates_directory):
                 print(f"[*] Checking pdb file header for missing residues")
-                for path,directories,files in os.walk(self.hits_directory):
+                for path,directories,files in os.walk(self.templates_directory):
                     for pdb_file in files:
-                        counter += 1
-                        pdb_file_path = os.path.join(self.hits_directory,pdb_file)
+                        pdb_file_path = os.path.join(self.templates_directory,pdb_file)
                         header_details = parse_pdb_header(pdb_file_path)
                         if header_details['has_missing_residues'] == True:
                             # print(f"[*] {pdb_file} has missing residues")
