@@ -34,6 +34,7 @@ Sequence alignment was performed using BLAST for pairwise alignments and the MSA
 
 ### 4. Template Selection:
 Templates for homology modeling were selected based on sequence similarity and structural relevance using PyRosetta's homology modeling protocols. Templates were identified from the Protein Data Bank (PDB) using BLAST and aligned sequences.
+![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
 
 ### 5. Building Model:
 PyRosetta’s comparative modeling tools were employed for initial model generation, incorporating aligned sequences and selected templates.
@@ -50,7 +51,13 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 
 ##  Team Members
 - [Shivani Pawar](https://github.com/ShivMC)
-- [Wilson Sena Kwaku Banini](https://github.com/wilson743)
+- [Wilson Sena Kwaku Banini](https://github.com/wilson743)                    
+                      
+                      
+                      
+                      
+                      
+  
 - [Musa Muhammad Shamsuddeen](https://github.com/Shamss99)
 - [Toheeb Jumah](https://github.com/Toheeb27)
 - [Nigel Dolling](https://github.com/NigelDolling)
