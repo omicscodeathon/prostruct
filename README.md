@@ -35,7 +35,7 @@ Sequence alignment was performed using BLAST for pairwise alignments and the MSA
 ### 4. Template Selection:
 Templates for homology modeling were selected based on sequence similarity and structural relevance using PyRosetta's homology modeling protocols. Templates were identified from the Protein Data Bank (PDB) using BLAST and aligned sequences.
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
-
+![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
 ### 5. Building Model:
 PyRosetta’s comparative modeling tools were employed for initial model generation, incorporating aligned sequences and selected templates.
 
