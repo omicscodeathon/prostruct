@@ -9,3 +9,5 @@ Multiple sequence Alignment
 Homology Modelling Engine/structure Module
 Promode-3 structure based module 
 Pyrosetta python based module 
+Model Evaluation and validation
+Model comparision 
