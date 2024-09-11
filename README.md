@@ -1,7 +1,5 @@
 # ProStruct
-ProStruct: A Python-based Tool for Homology Modeling and 3D Structure Prediction
-
-### Table of Content
+> ProStruct: A Python-based Tool for Homology Modeling and 3D Structure Prediction
 
 ## Introduction to Prostruc Structural Prediction Tool
 <p align="justify"> Homology modeling is a widely used computational technique for predicting the three-dimensional (3D) structures of proteins based on known templates, leveraging evolutionary relationships to provide structural insights critical for understanding protein function, interactions, and potential therapeutic targets. However, existing tools often require significant expertise and computational resources, presenting a barrier for many researchers. This project aims to develop a user-friendly, automated homology modeling tool that streamlines the process of protein structure prediction by integrating sequence alignment, template selection, and preliminary structure validation into a cohesive workflow. Utilizing Biopython for sequence alignment and BLAST searches to identify suitable template structures from the Protein Data Bank (PDB), the tool features automated template selection based on alignment scores, customizable alignment parameters, and a modular design that allows integration with additional structure prediction and validation tools. The pipeline is designed to efficiently handle both single and multiple sequence inputs. This tool simplifies the homology modeling process, making it accessible to researchers with varying levels of computational expertise, enabling high-throughput structural biology research, and facilitating the exploration of protein functions and interactions. By providing a flexible framework and user-friendly interface, the tool represents a significant advancement in the accessibility and efficiency of protein structure prediction. Its open-source nature encourages community collaboration and continuous improvement, ensuring it remains a cutting-edge solution for structural biology research.</p>
@@ -27,13 +25,14 @@ The Prostruc tool combines sequence alignment, template selection, model creatio
 ### 2. Sequence Retrieval and Input:
 Protein sequences were retrieved from databases such as UniProt or provided by users in FASTA format via the tool’s command-line interface (CLI). Input sequences underwent initial validation for correct format and completeness using Biopython's SeqIO module.
 
-### 3. Sequence Alignment:
-Sequence alignment was performed using BLAST for pairwise alignments and the MSA (Multiple Sequence Alignment) module for multiple sequence alignments. Alignment parameters were optimized for sequence identity thresholds, E-value and alignment quality to ensure accurate template identification.
-
-### 4. Template Selection:
+### 3. Template Selection:
 Templates for homology modeling were selected based on sequence similarity and structural relevance using PyRosetta's homology modeling protocols. Templates were identified from the Protein Data Bank (PDB) using BLAST and aligned sequences.
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
+
+### 4. Sequence Alignment:
+Sequence alignment was performed using BLAST for pairwise alignments and the MSA (Multiple Sequence Alignment) module for multiple sequence alignments. Alignment parameters were optimized for sequence identity thresholds, E-value and alignment quality to ensure accurate template identification.
+
 ### 5. Building Model:
 PyRosetta’s comparative modeling tools were employed for initial model generation, incorporating aligned sequences and selected templates.
 
@@ -45,16 +44,15 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 4. MolProbity
 5. TM Scores
 
-
-
 ##  Team Members
-- [Shivani Pawar](https://github.com/ShivMC)
-- [Wilson Sena Kwaku Banini](https://github.com/wilson743)                    
-- [Musa Muhammad Shamsuddeen](https://github.com/Shamss99)
-- [Toheeb Jumah](https://github.com/Toheeb27)
-- [Nigel Dolling](https://github.com/NigelDolling)
-- [Abdulwasiu Tiamiyu](https://github.com/Tiamiyu1)
-
+- [Shivani Pawar](https://github.com/ShivMC): Department of Biotechnology and Bioinformatics, Deogiri College, Auranagabad, Maharashtra, India.
+- [Wilson Sena Kwaku Banini](https://github.com/wilson743): Department of Theoretical and Applied Biology, College of Science, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana.            
+- [Musa Muhammad Shamsuddeen](https://github.com/Shamss99): Faculty of Health Sciences, Department of Public Health, National Open University of Nigeria.
+- [Toheeb Jumah](https://github.com/Toheeb27): School of Collective Intelligence, University Mohammed VI Polytechnic, Rabat, Morocco.
+- [Nigel Dolling](https://github.com/NigelDolling): Department of Parasitology, Noguchi Memorial Institute for Medical Research, University of Ghana, Legon.
+- [Abdulwasiu Tiamiyu](https://github.com/Tiamiyu1): School of Collective Intelligence, University Mohammed VI Polytechnic, Rabat, Morocco.
+- [Olaitan I. Awe](https://github.com/laitanawe): Training officer, ASBCB, Cape Town, South Africa.
+  
 ## Acknowledgment
 - [African Society for Bioinformatics and Computational Biology, Cape Town, South Africa](https://www.asbcb.org/)
 - [National Institutes of Health (NIH) Office of Data Science Strategy (ODSS)](https://datascience.nih.gov/)
