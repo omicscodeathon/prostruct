@@ -14,10 +14,9 @@
 7. **Make the tool open-source:** To foster collaboration, continuous improvement, and the integration of additional features by the research community.
 
 ## Workflow
-![image](https://github.com/omicscodeathon/prostruct/blob/main/workflow/WhatsApp%20Image%202024-07-29%20at%2001.31.46.jpeg)
-Figure1.workflow
+![General Workflow](https://github.com/user-attachments/assets/6d2eb1b0-ec3d-4ed6-9d55-82bc0f77b068)
 
-## Methods :
+## Pipeline Development Procedure
 
 ### 1. Tool Design and Architecture:
 The Prostruc tool combines sequence alignment, template selection, model creation, and validation to expedite homology modeling of protein structures. The tool was implemented using Biopython for sequence handling and integration with Rosetta and PyRosetta for structural modeling tasks.
