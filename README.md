@@ -18,19 +18,19 @@
 
 ## Pipeline Development Procedure
 
-### 1. Tool Design and Architecture:
+### 1. Tool Design and Architecture
 The Prostruc tool combines sequence alignment, template selection, model creation, and validation to expedite homology modeling of protein structures. The tool was implemented using Biopython for sequence handling and integration with Rosetta and PyRosetta for structural modeling tasks.
 
-### 2. Sequence Retrieval and Input:
+### 2. Sequence Retrieval and Input
 Protein sequences were retrieved from databases such as UniProt or provided by users in FASTA format via the tool’s command-line interface (CLI). Input sequences underwent initial validation for correct format and completeness using Biopython's SeqIO module.
 
-### 3. Template Selection:
+### 3. Template Selection
 Templates for homology modeling were selected based on sequence similarity and structural relevance using PyRosetta's homology modeling protocols. Templates were identified from the Protein Data Bank (PDB) using BLAST and aligned sequences.
 
-### 4. Sequence Alignment:
+### 4. Sequence Alignment
 Sequence alignment was performed using BLAST for pairwise alignments and the MSA (Multiple Sequence Alignment) module for multiple sequence alignments. Alignment parameters were optimized for sequence identity thresholds, E-value and alignment quality to ensure accurate template identification.
 
-### 5. Building Model:
+### 5. Building Model
 PyRosetta’s comparative modeling tools were employed for initial model generation, incorporating aligned sequences and selected templates.
 
 ### 6. Validation and Optimization
