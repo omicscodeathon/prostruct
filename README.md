@@ -27,8 +27,6 @@ Protein sequences were retrieved from databases such as UniProt or provided by u
 
 ### 3. Template Selection:
 Templates for homology modeling were selected based on sequence similarity and structural relevance using PyRosetta's homology modeling protocols. Templates were identified from the Protein Data Bank (PDB) using BLAST and aligned sequences.
-![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
-![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
 
 ### 4. Sequence Alignment:
 Sequence alignment was performed using BLAST for pairwise alignments and the MSA (Multiple Sequence Alignment) module for multiple sequence alignments. Alignment parameters were optimized for sequence identity thresholds, E-value and alignment quality to ensure accurate template identification.
@@ -43,6 +41,11 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 3. DOPE Scores
 4. MolProbity
 5. TM Scores
+
+## Results
+![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
+![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
+
 
 ##  Team Members
 - [Shivani Pawar](https://github.com/ShivMC): Department of Biotechnology and Bioinformatics, Deogiri College, Auranagabad, Maharashtra, India.
