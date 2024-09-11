@@ -1,5 +1,5 @@
 # ProStruct
-> ProStruct: A Python-based Tool for Homology Modeling and 3D Structure Prediction
+ProStruct: A Python-based Tool for Homology Modeling and 3D Structure Prediction
 
 # Table of Content
 
