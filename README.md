@@ -76,7 +76,7 @@ To ensure that Prostruc functions correctly, the following requirements must be 
   docker --version 
 
 - **Internet**:
-  An active internet connection is required for Prostruc to perform BLAST searches, retrieve templates, and complete various prediction tasks.
+  An active internet connection is required for Prostruc to perform BLAST searches, retrieve templates, and complete various prediction     tasks.
   
 ##  Team Members
 - [Shivani Pawar](https://github.com/ShivMC): Department of Biotechnology and Bioinformatics, Deogiri College, Auranagabad, Maharashtra, India.
