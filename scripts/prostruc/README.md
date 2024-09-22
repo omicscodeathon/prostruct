@@ -1,4 +1,4 @@
-# Prostruc: Protein Structure Prediction Tool
+# Prostruc: Protein Structure Prediction Tool - Python Package
 
 Prostruc is a command-line tool designed for comprehensive protein structure prediction, leveraging sequence alignment, template-based modeling, deep learning, and validation techniques. With a simple input of either an amino acid sequence or a FASTA file, ProStruc generates high-quality protein structures using cutting-edge algorithms. ProStruc automates the process of blast searches, template selection, structural modeling, and validation, including RMSD, TM-score, and QMEAN.
 
@@ -28,3 +28,8 @@ If no valid templates are found during the BLAST search, the pipeline will exit.
 
 ## Example
 ###### python prostruc.py --sequence "ACFRTY" --job_name "insulin_prediction" --email "user@example.com"
+
+## NB: THE PACKAGE IS ALSO AVAILABLE VIA PIP
+###### pip install prostruc
+###### prostruc --sequence "ACFRTY" --job_name "insulin_prediction" --email "user@example.com"
+
