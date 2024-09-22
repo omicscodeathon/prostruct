@@ -55,10 +55,12 @@ https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme
 - Install the Prostruc package via pip:
   ```bash
   pip install prostruc
+  ```
   
 - Example:
   ```bash
   prostruc --sequence "AAAA" --job_name "new_protein" --email "user@example.com"
+  ```
 
 ## Package Requirements
 
@@ -68,12 +70,14 @@ To ensure that Prostruc functions correctly, the following requirements must be 
   Prostruc requires Python version 3.6 or above. Ensure that you have the appropriate Python version installed. You can check your Python version with the following command:
   ```bash
   python --version
+  ```
 
 - **Docker**:
   Docker is necessary for managing the computational workloads, including modeling and validation processes. Make sure Docker is installed and actively running in the background.
   Verify Docker installation and status using:
   ```bash
-  docker --version 
+  docker --version
+  ```
 
 - **Internet**:
   An active internet connection is required for Prostruc to perform BLAST searches, retrieve templates, and complete various prediction     tasks.
