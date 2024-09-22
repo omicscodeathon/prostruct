@@ -276,7 +276,3 @@ def main():
     else:
         print("ERROR: Either fasta file or sequence is required. If one of these are provided, then you are missing either job name or email")
         exit(1)
-
-
-# if __name__ =="__main__":
-#     main()
