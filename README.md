@@ -1,5 +1,5 @@
-# ProStruct
-> ProStruct: A Python-based Tool for Homology Modeling and 3D Structure Prediction
+# Prostruc
+> Prostruc: A Python-based Tool for Homology Modeling and 3D Structure Prediction
 
 ## Introduction to Prostruc Structural Prediction Tool
 <p align="justify"> Homology modeling is a widely used computational technique for predicting the three-dimensional (3D) structures of proteins based on known templates, leveraging evolutionary relationships to provide structural insights critical for understanding protein function, interactions, and potential therapeutic targets. However, existing tools often require significant expertise and computational resources, presenting a barrier for many researchers. This project aims to develop a user-friendly, automated homology modeling tool that streamlines the process of protein structure prediction by integrating sequence alignment, template selection, and preliminary structure validation into a cohesive workflow. Utilizing Biopython for sequence alignment and BLAST searches to identify suitable template structures from the Protein Data Bank (PDB), the tool features automated template selection based on alignment scores, customizable alignment parameters, and a modular design that allows integration with additional structure prediction and validation tools. The pipeline is designed to efficiently handle both single and multiple sequence inputs. This tool simplifies the homology modeling process, making it accessible to researchers with varying levels of computational expertise, enabling high-throughput structural biology research, and facilitating the exploration of protein functions and interactions. By providing a flexible framework and user-friendly interface, the tool represents a significant advancement in the accessibility and efficiency of protein structure prediction. Its open-source nature encourages community collaboration and continuous improvement, ensuring it remains a cutting-edge solution for structural biology research.</p>
@@ -51,8 +51,33 @@ https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme
 - The web tool can be found at using the following address: http://149.165.154.75:8501
 
 ### Python package
-- The package is also available via pip: pip install prostruc
+- For users who prefer running Prostruc locally or want to integrate it into their workflows, the Python package provides full functionality via a command-line interface.
+- Install the Prostruc package via pip:
+  ```bash
+  pip install prostruc
+  
+- Example:
+  ```bash
+  prostruc --sequence "AAAA" --job_name "new_protein" --email "user@example.com"
 
+## Package Requirements
+
+To ensure that Prostruc functions correctly, the following requirements must be met:
+
+- **Python 3.6+**:  
+  Prostruc requires Python version 3.6 or above. Ensure that you have the appropriate Python version installed. You can check your Python version with the following command:
+  ```bash
+  python --version
+
+- **Docker**:
+  Docker is necessary for managing the computational workloads, including modeling and validation processes. Make sure Docker is installed and actively running in the background.
+  Verify Docker installation and status using:
+  ```bash
+  docker --version 
+
+- **Internet**:
+  An active internet connection is required for Prostruc to perform BLAST searches, retrieve templates, and complete various prediction tasks.
+  
 ##  Team Members
 - [Shivani Pawar](https://github.com/ShivMC): Department of Biotechnology and Bioinformatics, Deogiri College, Auranagabad, Maharashtra, India.
 - [Wilson Sena Kwaku Banini](https://github.com/wilson743): Department of Theoretical and Applied Biology, College of Science, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana.            
