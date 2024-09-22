@@ -47,7 +47,11 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme 
 
 ## Usage
-The web tool can be found at using the following address: http://149.165.154.75:8501
+### Web tool
+- The web tool can be found at using the following address: http://149.165.154.75:8501
+
+### Python package
+- The package is also available via pip: pip install prostruc
 
 ##  Team Members
 - [Shivani Pawar](https://github.com/ShivMC): Department of Biotechnology and Bioinformatics, Deogiri College, Auranagabad, Maharashtra, India.
