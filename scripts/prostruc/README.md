@@ -31,5 +31,7 @@ If no valid templates are found during the BLAST search, the pipeline will exit.
 
 ## NB: THE PACKAGE IS ALSO AVAILABLE VIA PIP
 ###### pip install prostruc
+
+###Example
 ###### prostruc --sequence "ACFRTY" --job_name "insulin_prediction" --email "user@example.com"
 
