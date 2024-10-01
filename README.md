@@ -48,6 +48,10 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image6.png) 
 
 
+https://github.com/user-attachments/assets/16acdda0-7513-4866-8b63-892dcf81c917
+
+
+
 https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme 
 ## validation 
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/superimposed%20structure.png)
