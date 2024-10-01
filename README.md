@@ -44,9 +44,13 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 ## Results
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
+![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
 https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme 
 
-![Video](https://github.com/omicscodeathon/prostruct/blob/main/output/movie3.mp4) 
+                    
+                      
+                      
+   
 ## Usage
 ### Web tool
 - The web tool can be found at using the following address: http://149.165.154.75:8501
