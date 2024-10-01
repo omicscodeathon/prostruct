@@ -41,8 +41,8 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 4. MolProbity
 5. TM Scores
 
-## Results
-![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
+## Results                      
+  
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image1.png)
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image6.png) 
