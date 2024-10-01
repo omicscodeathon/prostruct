@@ -52,10 +52,10 @@ https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme
 ## validation 
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/superimposed%20structure.png)
 
-# Fig Superimposed strctures,
-# Predicted v/s Experimemtal 
-# $\textcolor{yellow}{\textsf{Prediction}}$ 
-# $\textcolor{blue}{\textsf{Experimental}}$                                                                                                                                            
+### Fig Superimposed strctures,
+### Predicted v/s Experimemtal 
+### $\textcolor{yellow}{\textsf{Prediction}}$ 
+### $\textcolor{blue}{\textsf{Experimental}}$                                                                                                                                            
   
   
   
