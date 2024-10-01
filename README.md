@@ -44,11 +44,8 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 ## Results
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/template.png)
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image4.png)
-![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image1.png                                                            
-  
-  
-                      
-  )
+![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image1.png)
+![image] 
 https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme 
 
                     
