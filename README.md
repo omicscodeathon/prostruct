@@ -14,7 +14,8 @@
 7. **Make the tool open-source:** To foster collaboration, continuous improvement, and the integration of additional features by the research community.
 
 ## Workflow
-![General Workflow](https://github.com/omicscodeathon/prostruct/blob/main/workflow/prostruc_workflow.jpg)
+![General Workflow](https://github.com/omicscodeathon/prostruct/blob/main/workflow/workflow.pdf)                    
+  
 
 ## Pipeline Development Procedure
 
