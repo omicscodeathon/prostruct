@@ -14,7 +14,8 @@
 7. **Make the tool open-source:** To foster collaboration, continuous improvement, and the integration of additional features by the research community.
 
 ## Workflow
-![General Workflow](https://github.com/omicscodeathon/prostruct/blob/main/workflow/workflow.pdf)                    
+![General Workflow](https://github.com/omicscodeathon/prostruct/blob/main/workflow/workflow.pdf)       
+![image](https://github.com/omicscodeathon/prostruct/blob/main/workflow/prostruc_workflow.jpg)
   
 
 ## Pipeline Development Procedure
@@ -49,7 +50,11 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/image6.png) 
 
 
-                                                            
+                                                                                                                                            
+  
+  
+  
+  
   
   
   
