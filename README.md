@@ -17,7 +17,8 @@
 ![General Workflow](https://github.com/omicscodeathon/prostruct/blob/main/workflow/workflow.pdf)       
                     
                         
-![image](https://github.com/user-attachments/assets/6f22f3d3-f8fe-456d-8b39-a201cbbe3b96)
+
+![image](https://github.com/omicscodeathon/prostruct/blob/main/workflow/workflow.png)
 
   
 
