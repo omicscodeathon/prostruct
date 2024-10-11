@@ -128,7 +128,11 @@ To ensure that Prostruc functions correctly, the following requirements must be 
 
 - **Internet**:
   An active internet connection is required for Prostruc to perform BLAST searches, retrieve templates, and complete various prediction     tasks.
-  
+  ### Code Availability
+     scripts/prostruc/setup.py
+
+  The tool is also registered at SciCrunch.org.
+  RRID: SCR_025863
 ##  Team Members
 - [Shivani Pawar](https://github.com/ShivMC): Department of Biotechnology and Bioinformatics, Deogiri College, Auranagabad, Maharashtra, India.
 - [Wilson Sena Kwaku Banini](https://github.com/wilson743): Department of Theoretical and Applied Biology, College of Science, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana.            
