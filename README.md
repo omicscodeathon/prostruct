@@ -61,11 +61,11 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
   
   
   
+                                                                                  
   
-
-
-
-https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme 
+  
+  
+  
 ## validation 
 ![image](https://github.com/omicscodeathon/prostruct/blob/main/output/superimposed%20structure.png)
 
@@ -105,6 +105,9 @@ https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme
   ```bash
   prostruc --sequence "AAAA" --job_name "new_protein" --email "user@example.com"
   ```
+### Usage Gudelines:  
+
+https://github.com/omicscodeathon/prostruct/tree/main/scripts/prostruc#readme 
 
 ## Package Requirements
 
