@@ -82,13 +82,13 @@ Validation of the Prostruc tool is performed by comparing Prostruc to popular mo
   
   
   
-  
-  
-
 
                     
                       
+                                          
                       
+                      
+  
    
 ## Usage
 ### Web tool
@@ -128,9 +128,8 @@ To ensure that Prostruc functions correctly, the following requirements must be 
 
 - **Internet**:
   An active internet connection is required for Prostruc to perform BLAST searches, retrieve templates, and complete various prediction     tasks.
-  ### Code Availability
-     (scripts/prostruc/setup.py)
-
+ 
+### .
   The tool is also registered at SciCrunch.org.
   RRID: SCR_025863
 ##  Team Members
