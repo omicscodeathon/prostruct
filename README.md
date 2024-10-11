@@ -129,7 +129,7 @@ To ensure that Prostruc functions correctly, the following requirements must be 
 - **Internet**:
   An active internet connection is required for Prostruc to perform BLAST searches, retrieve templates, and complete various prediction     tasks.
   ### Code Availability
-     scripts/prostruc/setup.py
+     (scripts/prostruc/setup.py)
 
   The tool is also registered at SciCrunch.org.
   RRID: SCR_025863
